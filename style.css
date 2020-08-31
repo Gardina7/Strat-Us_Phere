@@ -1,0 +1,165 @@
+
+
+
+.container{
+    border: 2px transparent solid;
+    background-color:#003459;
+    width: 846px;
+    height: 415px;
+    position: relative;
+    margin: auto;
+    top: -2000px;
+    
+}
+
+
+body{
+    width: 100%;
+    height:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image:url("../images/stratosphere.jpg");
+    background-attachment: fixed;
+    
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.profilebox{
+    
+    border: 5px ;
+    height:200px;
+    width:200px;
+    background-color:steelblue;
+    position:absolute;
+    top:250px;
+    left:30px;
+    border-radius: 60px;
+    z-index: 10;
+    
+}
+
+.profilebox::after{
+content: "S.U.P";
+font-family: 'Courier New', Courier, monospace;
+font-size: xx-large;
+text-align: center;
+padding-top:75px;
+padding-left: 50px;
+padding-bottom: 75px;
+
+}
+.sitename{
+    background-color:#003459;
+    height:75px;
+    width:225px;
+    position:absolute;
+    top:315px;
+    left:300px;
+    font-size: x-large;
+    color: sienna;
+   text-align: center;
+   z-index: 5;
+   padding-top:20px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.menubar{
+    
+    background-color:#ffdab9 ;
+    border:2px transparent solid;
+    width: 846px;
+    height:70px;
+    position:absolute;
+    top:415px;
+    z-index: -20px;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+    color:sienna;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 50px;
+   
+
+    
+}
+
+
+.servicebuttons{
+    float: right;
+    position: relative;
+    top: 380px;
+
+
+}
+.topnav:hover{
+
+    right: 270px;
+    top:20px;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align:center;
+    text-decoration: none;
+    
+    
+ }
+
+a{
+    text-decoration: none;
+    
+}
+
+.row{
+    background-color:transparent;
+    width:846px;
+    height: 900px;
+    border: 2px transparent;
+    position: relative;
+    top: -1870px;
+   right: -520px;
+
+}
+
+
+.column1{
+    float:left;
+    
+    padding-right:10px;
+    background-color:transparent;
+    border:2px #ffdab9 solid;
+    height:900px;
+    width:324px;
+
+}
+
+
+
+.column2{
+    float:right;
+    background-color:transparent;
+    border: 2px #003459 solid;
+    width:500px;
+    height: 900px;
+}
+
+.box{
+    border: 2px slateblue solid;
+    width: 316px;
+    height:216px ;
+}
+.strausphere{
+    position: absolute;
+    padding: 10px;
+    margin: auto;
+}
+footer{
+    color: slateblue;
+    
+}
+
+
+
+
